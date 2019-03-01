@@ -31,7 +31,7 @@ public class Box {
     }
 
     public int getRequiredPaper() {
-        int surfaceArea = 2 * multiplyDimensions(0, 1) + 2 * multiplyDimensions(1, 2) + 2 * multiplyDimensions(0, 2);
+        int surfaceArea = (2 * multiplyDimensions(0, 1)) + (2 * multiplyDimensions(1, 2)) + (2 * multiplyDimensions(0, 2));
         return surfaceArea + smallestWallArea;
     }
 }
